@@ -12,7 +12,7 @@ const Blog = () => {
           content="Stephen Puthenpurackal| Full stack developer - Jobless"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://meera.dev/" />
+        <meta property="og:url" content="google.com/" />
         <meta
           property="og:title"
           content="Stephen Puthenpurackal | Full stack developer - Jobless"

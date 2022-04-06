@@ -8,7 +8,7 @@ import {
     ButtonGroup,
   } from "@chakra-ui/react";
   
-  import { FaEnvelope, FaWhatsapp } from "react-icons/fa";
+  import { FaEnvelope, FaSnapchat } from "react-icons/fa";
   import Paragraph from "../../Paragraph";
   
   const Profile = () => {

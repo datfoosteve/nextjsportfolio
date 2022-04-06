@@ -8,9 +8,14 @@ import {
   } from "@chakra-ui/react";
   import { FaAngleDown } from "react-icons/fa";
   import Link from "./Link";
+
+  
   
   const DropdownMenu = ({ currentPath, extraLinks }) => {
     return (
+
+        
+
       <Menu autoSelect={false}>
         <MenuButton
           p={2}
@@ -29,24 +34,21 @@ import {
         >
           Links
         </MenuButton>
-        <MenuList bg={useColorModeValue("gray.50", "gray.800")}>
-          {extraLinks &&
-            extraLinks?.map(({ name, route }) => (
-              <Link href={route} key={name}>
-                <MenuItem
-                  bg={
-                    currentPath === route &&
-                    useColorModeValue("gray.200", "gray.700")
-                  }
-                >
-                  {name}
-                </MenuItem>
-              </Link>
-            ))}
-        </MenuList>
+      <MenuList bg={useColorModeValue("gray.50", "gray.800")}>
+        {extraLinks &&
+          extraLinks?.map(({ name, route }) => (
+            <Link href={route} key={name}>
+              <MenuItem
+                bg={currentPath === route && useColorModeValue("gray.200", "gray.700")}>
+                {name}
+              </MenuItem>
+            </Link>
+          ))}
+      </MenuList>
       </Menu>
     );
   };
-  
+
+ 
   export default DropdownMenu;
   
