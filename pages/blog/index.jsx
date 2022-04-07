@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Box, Container, Heading, SlideFade, Divider } from "@chakra-ui/react";
-import Message from "components/Message";
+import Message from "/components/Message";
 
 const Blog = () => {
   return (
@@ -9,13 +9,13 @@ const Blog = () => {
         <title>Blog | Stephen Puthenpurackal</title>
         <meta
           name="description"
-          content="Stephen Puthenpurackal| Full stack developer - Jobless"
+          content="Stephen Puthenpurackal| Full stack developer"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="google.com/" />
         <meta
           property="og:title"
-          content="Stephen Puthenpurackal | Full stack developer - Jobless"
+          content="Stephen Puthenpurackal | Full stack developer"
         />
         <meta property="og:image" content="/meta-image.jpg" />
       </Head>
