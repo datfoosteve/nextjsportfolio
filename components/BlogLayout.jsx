@@ -8,13 +8,13 @@ const BlogLayout = ({ children }) => {
         <title>Blog Title | Stephen Puthenpurackal</title>
         <meta
           name="description"
-          content="Stephen Puthenpurackal | Full stack developer - Jobless"
+          content="Stephen Puthenpurackal | Full stack developer"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="google.com" />
         <meta
           property="og:title"
-          content="Stephen Puthenpurackal | Full stack developer - Jobless"
+          content="Stephen Puthenpurackal | Full stack developer"
         />
         <meta property="og:image" content="/meta-image.jpg" />
       </Head>

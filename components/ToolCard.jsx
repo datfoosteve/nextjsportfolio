@@ -22,7 +22,7 @@ import {
           d="flex"
           role="group"
           _hover={{
-            borderColor: "green.500",
+            borderColor: "blue.500",
           }}
         >
           <IconButton
@@ -32,7 +32,7 @@ import {
             target="_blank"
             aria-label={tool?.name}
             mr={3}
-            _groupHover={{ color: "green.500" }}
+            _groupHover={{ color: "blue.500" }}
             icon={tool?.icon}
           />
           <Box>

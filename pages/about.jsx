@@ -10,7 +10,7 @@ import {
   LightMode,
   Tag,
 } from "@chakra-ui/react";
-import Paragraph from "components/Paragraph";
+import Paragraph from "/components/Paragraph";
 import { useState } from "react";
 
 const About = () => {
@@ -46,13 +46,13 @@ const About = () => {
         <title>Stephen Puthenpurackal| About</title>
         <meta
           name="description"
-          content="Stephen Puthenpurackal | Full stack developer - Jobless and will need charity"
+          content="Stephen Puthenpurackal | Full stack developer"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://stephenputhenpurackal.dev/" />
+        <meta property="og:url" content="google.com/" />
         <meta
           property="og:title"
-          content="Stephen Puthenpurackal | Full stack developer - Jobless and will be homeless"
+          content="Stephen Puthenpurackal | Full stack developer"
         />
         <meta property="og:image" content="/meta-image.jpg" />
       </Head>
@@ -77,8 +77,8 @@ const About = () => {
                   size="sm"
                   onClick={handleToggle}
                   mt="1rem"
-                  colorScheme="green"
-                  bg="green.500"
+                  colorScheme="blue"
+                  bg="blue.500"
                 >
                   Show {show ? "Less" : "More"}
                 </Button>
@@ -98,7 +98,7 @@ const About = () => {
               {coolStuff.map((item) => (
                 <Tag
                   size="lg"
-                  colorScheme="green"
+                  colorScheme="blue"
                   key={item}
                   marginY={2}
                   marginRight={2}

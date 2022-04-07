@@ -16,7 +16,7 @@ const Timeline = () => {
       </Heading>
       <List spacing={18} fontSize="18">
         <ListItem>
-          <ListIcon as={MdCheckCircle} color="green.500" />
+          <ListIcon as={MdCheckCircle} color="blue.500" />
           Still Trying to find a job...Check my <Link href="www.github.com/datfoosteve">github out</Link>
         </ListItem>
       </List>
@@ -25,11 +25,11 @@ const Timeline = () => {
       </Heading>
       <List spacing={18} fontSize="18">
         <ListItem>
-          <ListIcon as={MdCheckCircle} color="green.500" />
+          <ListIcon as={MdCheckCircle} color="blue.500" />
           Trying to find a job, Got into the SMU Full stack BootCamp
         </ListItem>
         <ListItem>
-          <ListIcon as={MdCheckCircle} color="green.500" />
+          <ListIcon as={MdCheckCircle} color="blue.500" />
           Experimenting with all technologies
         </ListItem>
       </List>
@@ -38,10 +38,10 @@ const Timeline = () => {
       </Heading>
       <List spacing={18} fontSize="18">
         <ListItem>
-          <ListIcon as={MdCheckCircle} color="green.500" /> Moved Back to Dallas, Continued Comp Science At UNT
+          <ListIcon as={MdCheckCircle} color="blue.500" /> Moved Back to Dallas, Continued Comp Science At UNT
         </ListItem>
         <ListItem>
-          <ListIcon as={MdCheckCircle} color="green.500" />
+          <ListIcon as={MdCheckCircle} color="blue.500" />
           Attending Midwestern State University for Computer Science
         </ListItem>
       </List>

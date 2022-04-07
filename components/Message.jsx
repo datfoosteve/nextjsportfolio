@@ -2,7 +2,7 @@ import { Box, Text, useColorModeValue } from "@chakra-ui/react";
 import { FaFolderOpen, FaInfo } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-const Message = ({ message = "Ohh! Such an empty place 😫", type }) => {
+const Message = ({ message = "Crud, Forgot to code this 😫", type }) => {
   const Icon = type === "empty" ? FaFolderOpen : FaInfo;
   return (
     <motion.div

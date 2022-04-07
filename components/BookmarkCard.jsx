@@ -30,7 +30,7 @@ import {
             cursor="pointer"
             role="group"
             _hover={{
-              borderColor: "green.300",
+              borderColor: "blue.300",
             }}
           >
             <Box

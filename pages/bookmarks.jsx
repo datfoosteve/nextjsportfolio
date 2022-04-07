@@ -9,10 +9,10 @@ import {
   Stack,
 } from "@chakra-ui/react";
 import { FaGithubAlt, FaGlobe } from "react-icons/fa";
-import Paragraph from "components/Paragraph";
+import Paragraph from "/components/Paragraph";
 import { useState, useEffect } from "react";
-import BookmarkCard from "components/BookmarkCard";
-import Message from "components/Message";
+import BookmarkCard from "/components/BookmarkCard";
+import Message from "/components/Message";
 
 const Bookmarks = ({ bookmarksData }) => {
   const [category, setCategory] = useState([
@@ -45,7 +45,7 @@ const Bookmarks = ({ bookmarksData }) => {
           content="A list of my favorite articles & websites, updated weekly."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://stephenputhenpurackal.dev/" />
+        <meta property="og:url" content="google.com" />
         <meta
           property="og:title"
           content="A list of my favorite articles & websites, updated weekly."
@@ -79,7 +79,7 @@ const Bookmarks = ({ bookmarksData }) => {
                   isActive={activeCategory === item.name}
                   onClick={(e) => setActiveCategory(item.name)}
                   _active={{
-                    bg: "green.500",
+                    bg: "blue.500",
                   }}
                   leftIcon={item.icon}
                 >

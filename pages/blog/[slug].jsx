@@ -1,4 +1,4 @@
-import BlogLayout from "components/BlogLayout";
+import BlogLayout from "/components/BlogLayout";
 import { useRouter } from "next/router";
 
 const Blog = () => {

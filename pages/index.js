@@ -1,4 +1,4 @@
-import Head from "/next/head";
+import Head from "next/head";
 import { Container, Divider } from "@chakra-ui/react";
 
 import Stack from "/components/pages/index/Stack";

@@ -67,7 +67,7 @@ import {
   
     return (
       <>
-        <Box py={5} borderTop="2px" borderTopColor="green.500">
+        <Box py={5} borderTop="2px" borderTopColor="blue.500">
           <Container maxW="container.lg">
             <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
               <IconButton

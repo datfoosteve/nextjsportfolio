@@ -2,13 +2,14 @@ import {
     Box,
     Heading,
     SlideFade,
+    ScaleFade,
     Link,
     LightMode,
     Button,
     ButtonGroup,
   } from "@chakra-ui/react";
   
-  import { FaEnvelope, FaSnapchat } from "react-icons/fa";
+  import { FaEnvelope, FaSnapchat, FaGithub, FaLinkedin } from "react-icons/fa";
   import Paragraph from "../../Paragraph";
   
   const Profile = () => {
@@ -20,12 +21,23 @@ import {
             fontSize={{ base: "28px", md: "40px", lg: "48px" }}
             mb={3}
           >
-            Yoooooooooooooooo, My name is Stephen, welcome to the humble abode
+            Welcome to <strong>the abode</strong>
           </Heading>
-          <Paragraph fontSize="2xl" lineHeight={1.6}>
-            Full stack developer - UI / UX Designer, focused on Javascript, C++, CNC,{" "}
+
+          <ScaleFade in={true} offsetY={80}>
+          <Paragraph
+            as="h1"
+            fontSize={{ base: "14px", md: "25px", lg: "30px" }}
+            mb={3}
+          >
+            My Name Is Stephen, Pleased To make Your Aquaintance
+          </Paragraph>
+          </ScaleFade>
+          
+          <Paragraph fontSize="xl" lineHeight={1.6}>
+            I am a Full stack developer - UI / UX Designer, focused on the Learning Everything. Mastered C++, Python,{" "}
             <Link
-              color="green.500"
+              color="blue.500"
               href="https://www.nodejs.org"
               isExternal
               fontWeight="500"
@@ -33,28 +45,39 @@ import {
               Nodejs,
             </Link>{" "}
             <Link
-              color="green.500"
+              color="blue.500"
               href="https://www.reactjs.org"
               fontWeight="500"
               isExternal
             >
               React
             </Link>
-            . I am looking to find employment as a fullstack developer. Teach me anything, I am always willing to learn something
+           . Experianced in most UI or Frameworks. Looking for Employment
           </Paragraph>
           <Box mt={10}>
             <LightMode>
               <ButtonGroup>
                 <Button
-                  colorScheme="green"
-                  bg="green.500"
+                  colorScheme="blue"
+                  bg="blue.500"
                   href="mailto:datfoosteve@gmail.com"
                   borderRadius={5}
                   p={3}
                   as="a"
                   leftIcon={<FaEnvelope />}
                 >
-                  datfoosteve@gmail.com
+                  My Email
+                </Button>
+                <Button
+                  colorScheme="black"
+                  bg="black"
+                  href=" github.com/datfoosteve"
+                  borderRadius={5}
+                  p={3}
+                  as="a"
+                  leftIcon={<FaGithub />}
+                >
+                  Github
                 </Button>
                 <Button
                   colorScheme="yellow"
@@ -66,6 +89,17 @@ import {
                   leftIcon={<FaSnapchat />}
                 >
                   Snapchat
+                </Button>
+                <Button
+                  colorScheme="blue"
+                  bg="blue"
+                  href=" linkedin.com/datfoosteve"
+                  borderRadius={5}
+                  p={3}
+                  as="a"
+                  leftIcon={<FaLinkedin />}
+                >
+                  Linkedin
                 </Button>
               </ButtonGroup>
             </LightMode>
