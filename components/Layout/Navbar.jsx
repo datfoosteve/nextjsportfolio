@@ -24,17 +24,17 @@ import {
       name: "About Me",
       route: "/about",
     },
-    {
-      name: "Bookmarks",
-      route: "/bookmarks",
-    },
+    // {
+    //   name: "Bookmarks",
+    //   route: "/bookmarks",
+    // },
   ];
   
   const extraLinks = [
-    {
-      name: "Books",
-      route: "/books",
-    },
+    // {
+    //   name: "Books",
+    //   route: "/books",
+    // },
     {
       name: "Blog",
       route: "/blog",
