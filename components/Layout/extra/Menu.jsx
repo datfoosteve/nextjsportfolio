@@ -12,6 +12,7 @@ import {
   
   
   const DropdownMenu = ({ currentPath, extraLinks }) => {
+    const refacColorMode = useColorModeValue("gray.200", "gray.700");
     return (
 
         
@@ -39,7 +40,7 @@ import {
           extraLinks?.map(({ name, route }) => (
             <Link href={route} key={name}>
               <MenuItem
-                bg={currentPath === route && useColorModeValue("gray.200", "gray.700")}>
+                bg={currentPath === route && refacColorMode}>
                 {name}
               </MenuItem>
             </Link>
