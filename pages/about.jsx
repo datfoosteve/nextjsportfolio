@@ -49,7 +49,7 @@ const About = () => {
           content="Stephen Puthenpurackal | Full stack developer"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="google.com/" />
+        <meta property="og:url" content="vercel.com/datfoosteve/stephensportfolio" />
         <meta
           property="og:title"
           content="Stephen Puthenpurackal | Full stack developer"
@@ -69,7 +69,13 @@ const About = () => {
               </Heading>
               <Collapse in={show} startingHeight={100}>
                 <Paragraph fontSize="xl" lineHeight={1.6}>
-                  Some crazy description that makes me feel like im interesting in some positive way but in reality i am a tiny mouse and i am planning on taking over the world, by hypnotising all humans to be forced to watch ratatoue until their brains explode
+                An Inquisitive Computer Science student, skilled with strong foundations in
+Mathamathics, Technological Acuity, Creativity, and inferential logic. Committed and
+Challenge driven, my ambition in life is to apply my skillsets to benefit others,
+whether it be people around me or the corportation that I work for. My Prior
+occupations do not have any relation to who I am currently due to the change of
+study and interests during the course of my college career, but shows exellence in the
+ability to collaborate, communicate, and work with others efficiently.
                 </Paragraph>
               </Collapse>
               <LightMode>

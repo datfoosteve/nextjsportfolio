@@ -14,7 +14,7 @@ const BlogLayout = ({ children }) => {
         <meta property="og:url" content="google.com" />
         <meta
           property="og:title"
-          content="Stephen Puthenpurackal | Full stack developer"
+          content="Stephen Puthenpurackal | Full stack Developer"
         />
         <meta property="og:image" content="/meta-image.jpg" />
       </Head>

@@ -45,7 +45,7 @@ const Bookmarks = ({ bookmarksData }) => {
           content="A list of my favorite articles & websites, updated weekly."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="google.com" />
+        <meta property="og:url" content="vercel.com/datfoosteve/stephensportfolio" />
         <meta
           property="og:title"
           content="A list of my favorite articles & websites, updated weekly."
