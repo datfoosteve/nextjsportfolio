@@ -31,7 +31,7 @@ const BlogLayout = ({ children }) => {
           </Box>
           <Divider my={10} />
         </SlideFade>
-        <SlideFade in={true} offsetY={80}>
+        <SlideFade in={true} offsetY={50}>
           <main>{children}</main>
         </SlideFade>
       </Container>

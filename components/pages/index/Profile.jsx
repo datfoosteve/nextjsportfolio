@@ -88,7 +88,7 @@ import {
                   as="a"
                   leftIcon={<FaFigma />}
                 >
-                  Figma
+                  Figma{" "}
                 </Button>
                 <Button
                   colorScheme="telegram"

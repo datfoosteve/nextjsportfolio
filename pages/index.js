@@ -12,14 +12,14 @@ export default function Home() {
         <title>Stephen Puthenpurackal | Home</title>
         <meta
           name="description"
-          content="Stephen Puthenpurackal | Full stack developer - Jobless"
+          content="Stephen Puthenpurackal | Full stack developer"
         />
         <meta property="og:type" content="website" />
         <meta name="robots" content="follow, index" />
         <meta property="og:url" content="thehumbleabode.vercel.app" />
         <meta
           property="og:title"
-          content="Stephen Puthenpurackal | Full stack developer - Jobless"
+          content="Stephen Puthenpurackal | Full stack developer"
         />
         <meta property="og:image" content="/meta-image.jpg" />
       </Head>
