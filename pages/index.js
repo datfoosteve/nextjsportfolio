@@ -16,7 +16,7 @@ export default function Home() {
         />
         <meta property="og:type" content="website" />
         <meta name="robots" content="follow, index" />
-        <meta property="og:url" content="vercel.com/datfoosteve/stephensportfolio" />
+        <meta property="og:url" content="thehumbleabode.vercel.app" />
         <meta
           property="og:title"
           content="Stephen Puthenpurackal | Full stack developer - Jobless"

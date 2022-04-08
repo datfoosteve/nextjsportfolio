@@ -49,7 +49,7 @@ const About = () => {
           content="Stephen Puthenpurackal | Full stack developer"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="vercel.com/datfoosteve/stephensportfolio" />
+        <meta property="og:url" content="thehumbleabode.vercel.app" />
         <meta
           property="og:title"
           content="Stephen Puthenpurackal | Full stack developer"

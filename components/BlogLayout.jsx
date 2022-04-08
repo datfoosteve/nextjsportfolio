@@ -11,7 +11,7 @@ const BlogLayout = ({ children }) => {
           content="Stephen Puthenpurackal | Full stack developer"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="google.com" />
+        <meta property="og:url" content="thehumbleabode.vercel.app" />
         <meta
           property="og:title"
           content="Stephen Puthenpurackal | Full stack Developer"
