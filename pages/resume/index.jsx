@@ -21,10 +21,10 @@ const Resume = () => {
         />
         <meta property="og:image" content="/meta-image.jpg" />
       </Head>
-          <h1>First Post</h1>
+          <h1>Link To My Resume, Stiill trying to intergrate a seemless PDF on the page.</h1>
           <h2>
-            <Link href="/">
-              <a>Back to home</a>
+            <Link href="https://csb-jzke1s-o4qhq8ebw-datfoosteve.vercel.app/">
+              <a>Resume</a>
             </Link>
           </h2>
         </>
