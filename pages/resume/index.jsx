@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { Text } from '@chakra-ui/react'
 import Head from "next/head";
 import { Box, Container, Heading, SlideFade, Divider } from "@chakra-ui/react";
 
@@ -22,12 +23,8 @@ const Resume = () => {
         />
         <meta property="og:image" content="/meta-image.jpg" />
       </Head>
-          <h1>Link To My Resume, Stiill trying to intergrate a seemless PDF on the page.</h1>
-          <h2>
-        <Link href='https://csb-jzke1s-o4qhq8ebw-datfoosteve.vercel.app/' isExternal>
- Resume <ExternalLinkIcon mx='20px' />
-</Link>
-          </h2>
+         <Link href='https://csb-jzke1s-o4qhq8ebw-datfoosteve.vercel.app/' isExternal>
+ CLICK HERE FOR RESUME AND YOU WILL BE REDIRECTED TO ANOTHER PAGE WHICH HAS MY RESUME <ExternalLinkIcon mx='2px'/></Link>
         </>
       )
     }
