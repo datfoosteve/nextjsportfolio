@@ -4,7 +4,6 @@ import {
   Container,
   Heading,
   SlideFade,
-  ScaleFade,
   Divider,
   Button,
   Collapse,
@@ -75,7 +74,6 @@ const About = () => {
                 About Me
               </Heading>
               <Collapse in={show}  startingHeight={100} animateOpacity>
-                <ScaleFade in={show} animateOpacity>
                 <Paragraph fontSize="xl" lineHeight={1.6}>
                 An Inquisitive Computer Science student, skilled with strong foundations in
 Mathamathics, Technological Acuity, Creativity, and inferential logic. Committed and
@@ -85,7 +83,6 @@ occupations do not have any relation to who I am currently due to the change of
 study and interests during the course of my college career, but shows exellence in the
 ability to collaborate, communicate, and work with others efficiently.
                 </Paragraph>
-                </ScaleFade>
               </Collapse>
               <LightMode>
                 <Button
