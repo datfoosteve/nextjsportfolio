@@ -21,14 +21,10 @@ const Resume = () => {
         />
         <meta property="og:image" content="/meta-image.jpg" />
       </Head>
-          <h1>Link To My Resume, Stiill trying to intergrate a seemless PDF on the page.</h1>
-          <h2>
-            <Link href="https://csb-jzke1s-o4qhq8ebw-datfoosteve.vercel.app/">
-              <a>Resume</a>
-            </Link>
-          </h2>
+            <Link href='https://csb-jzke1s-o4qhq8ebw-datfoosteve.vercel.app/' >
+ CLICK HERE FOR RESUME AND YOU WILL BE REDIRECTED TO ANOTHER PAGE WHICH HAS MY RESUME </Link>
         </>
       )
     }
-
+        
     export default Resume;
