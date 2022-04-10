@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 import Head from "next/head";
 import { Box, Container, Heading, SlideFade, Divider } from "@chakra-ui/react";
 
