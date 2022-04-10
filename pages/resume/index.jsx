@@ -23,9 +23,9 @@ const Resume = () => {
       </Head>
           <h1>Link To My Resume, Stiill trying to intergrate a seemless PDF on the page.</h1>
           <h2>
-            <Link href="https://csb-jzke1s-o4qhq8ebw-datfoosteve.vercel.app/">
-              <a>Resume</a>
-            </Link>
+        <Link color='teal.500' href='https://csb-jzke1s-o4qhq8ebw-datfoosteve.vercel.app/' isExternal>
+ Resume <ExternalLinkIcon mx='20px' />
+</Link>
           </h2>
         </>
       )
