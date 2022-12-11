@@ -11,7 +11,7 @@ const BlogLayout = ({ children }) => {
           content="Stephen Puthenpurackal | Full stack developer"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="google.com" />
+        <meta property="og:url" content="thehumbleabode.vercel.app" />
         <meta
           property="og:title"
           content="Stephen Puthenpurackal | Full stack Developer"
@@ -31,7 +31,7 @@ const BlogLayout = ({ children }) => {
           </Box>
           <Divider my={10} />
         </SlideFade>
-        <SlideFade in={true} offsetY={80}>
+        <SlideFade in={true} offsetY={50}>
           <main>{children}</main>
         </SlideFade>
       </Container>

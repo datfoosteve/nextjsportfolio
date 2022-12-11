@@ -9,7 +9,7 @@ export default class Document extends NextDocument {
         <Head />
         <body>
           <ColorModeScript initialColorMode={theme.config.initialColorMode} />
-          {/* <link rel="icon" type="image/svg+xml" href="/logo.svg" /> */}
+           <link rel="icon" type="image/svg+xml" href="/logo.svg" /> 
           <Main />
           <NextScript />
         </body>

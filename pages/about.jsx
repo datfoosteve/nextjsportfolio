@@ -4,12 +4,16 @@ import {
   Container,
   Heading,
   SlideFade,
+  ScaleFade,
   Divider,
   Button,
   Collapse,
   LightMode,
   Tag,
-} from "@chakra-ui/react";
+  image,
+
+} 
+from "@chakra-ui/react";
 import Paragraph from "/components/Paragraph";
 import { useState } from "react";
 
@@ -18,24 +22,27 @@ const About = () => {
 
   const [coolStuff, setCoolStuff] = useState([
     "React",
-    "Javascript",
-    "Science",
-    "Illustration",
+    "Computing",
+    "IIot",
+    "Learning",
+    "Coding?",
+    "Engineering",
+    "Innovation",
     "AI",
-    "Space",
-    "Android",
-    "Movies",
+    "Outer Spaceing",
+    "Traveling",
+    "..Regreting",
     "Comics",
-    "Figma",
+    "NewExperience",
     "Tea",
   ]);
   const [notCoolStuff, setNotCoolStuff] = useState([
-    "Angular",
+    "Me",
     "Jquery",
-    "Coffee",
-    "Politics",
+    "WetSocks",
+    "BeingWoke",
     "Narrow-minded",
-    "Working Overtime",
+    "Time-wasting",
   ]);
 
   const handleToggle = () => setShow(!show);
@@ -49,7 +56,7 @@ const About = () => {
           content="Stephen Puthenpurackal | Full stack developer"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="vercel.com/datfoosteve/stephensportfolio" />
+        <meta property="og:url" content="thehumbleabode.vercel.app" />
         <meta
           property="og:title"
           content="Stephen Puthenpurackal | Full stack developer"
@@ -67,7 +74,8 @@ const About = () => {
               >
                 About Me
               </Heading>
-              <Collapse in={show} startingHeight={100}>
+              <Collapse in={show}  startingHeight={100} animateOpacity>
+                <ScaleFade in={show} animateOpacity>
                 <Paragraph fontSize="xl" lineHeight={1.6}>
                 An Inquisitive Computer Science student, skilled with strong foundations in
 Mathamathics, Technological Acuity, Creativity, and inferential logic. Committed and
@@ -77,10 +85,11 @@ occupations do not have any relation to who I am currently due to the change of
 study and interests during the course of my college career, but shows exellence in the
 ability to collaborate, communicate, and work with others efficiently.
                 </Paragraph>
+                </ScaleFade>
               </Collapse>
               <LightMode>
                 <Button
-                  size="sm"
+                  size="md"
                   onClick={handleToggle}
                   mt="1rem"
                   colorScheme="blue"
@@ -92,7 +101,7 @@ ability to collaborate, communicate, and work with others efficiently.
             </Box>
             <Divider my={10} />
           </SlideFade>
-          <SlideFade in={true} offsetY={80} delay={0.2}>
+          <SlideFade in={true} offsetY={80} delay={0.4}>
             <Heading
               as="h1"
               fontSize={{ base: "24px", md: "30px", lg: "36px" }}
@@ -113,6 +122,8 @@ ability to collaborate, communicate, and work with others efficiently.
                 </Tag>
               ))}
             </Paragraph>
+            </SlideFade>
+            <SlideFade in={true} offsetY={80} delay={0.6}>
             <Heading
               as="h1"
               fontSize={{ base: "24px", md: "30px", lg: "36px" }}

@@ -9,7 +9,7 @@ import {
     ButtonGroup,
   } from "@chakra-ui/react";
   
-  import { FaEnvelope, FaSnapchat, FaGithub, FaLinkedin } from "react-icons/fa";
+  import { FaEnvelope, FaSnapchat, FaGithub, FaLinkedin, FaFigma, FaCodepen, FaPaintBrush} from "react-icons/fa";
   import Paragraph from "../../Paragraph";
   
   const Profile = () => {
@@ -71,7 +71,7 @@ import {
                 <Button
                   colorScheme="black"
                   bg="black"
-                  href=" github.com/datfoosteve"
+                  href="github.com/datfoosteve"
                   borderRadius={5}
                   p={3}
                   as="a"
@@ -80,9 +80,42 @@ import {
                   Github
                 </Button>
                 <Button
+                  colorScheme="purple"
+                  bg="black"
+                  href="https://www.figma.com/@datfoosteve"
+                  borderRadius={5}
+                  p={3}
+                  as="a"
+                  leftIcon={<FaFigma />}
+                >
+                  Figma{" "}
+                </Button>
+                <Button
+                  colorScheme="telegram"
+                  bg="telegram.300"
+                  href="https://codesandbox.io/u/datfoosteve"
+                  borderRadius={5}
+                  p={3}
+                  as="a"
+                  leftIcon={<FaPaintBrush />}
+                >
+                  CodeSandbox
+                </Button>
+                <Button
+                  colorScheme="teal"
+                  bg="blackAlpha.100"
+                  href="https://codepen.io/datfoosteve"
+                  borderRadius={5}
+                  p={3}
+                  as="a"
+                  leftIcon={<FaPaintBrush />}
+                >
+                  CodePen
+                </Button>
+                <Button
                   colorScheme="yellow"
                   bg="yellow.500"
-                  href=" snapchat.com/datfoosteve"
+                  href="snapchat.com/datfoosteve"
                   borderRadius={5}
                   p={3}
                   as="a"
@@ -93,7 +126,7 @@ import {
                 <Button
                   colorScheme="blue"
                   bg="blue"
-                  href=" linkedin.com/datfoosteve"
+                  href="linkedin.com/datfoosteve"
                   borderRadius={5}
                   p={3}
                   as="a"
